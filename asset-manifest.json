@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/template-react-ts/static/css/main.9f8a9f1b.chunk.css",
+    "main.js": "/template-react-ts/static/js/main.afd101c9.chunk.js",
+    "main.js.map": "/template-react-ts/static/js/main.afd101c9.chunk.js.map",
+    "runtime-main.js": "/template-react-ts/static/js/runtime-main.c84eb0d2.js",
+    "runtime-main.js.map": "/template-react-ts/static/js/runtime-main.c84eb0d2.js.map",
+    "static/js/2.64c2e74c.chunk.js": "/template-react-ts/static/js/2.64c2e74c.chunk.js",
+    "static/js/2.64c2e74c.chunk.js.map": "/template-react-ts/static/js/2.64c2e74c.chunk.js.map",
+    "static/js/3.b39826f9.chunk.js": "/template-react-ts/static/js/3.b39826f9.chunk.js",
+    "static/js/3.b39826f9.chunk.js.map": "/template-react-ts/static/js/3.b39826f9.chunk.js.map",
+    "index.html": "/template-react-ts/index.html",
+    "static/css/main.9f8a9f1b.chunk.css.map": "/template-react-ts/static/css/main.9f8a9f1b.chunk.css.map",
+    "static/js/2.64c2e74c.chunk.js.LICENSE.txt": "/template-react-ts/static/js/2.64c2e74c.chunk.js.LICENSE.txt",
+    "static/media/achivement-img.d5834fd5.png": "/template-react-ts/static/media/achivement-img.d5834fd5.png",
+    "static/media/card-shop.7c93e539.png": "/template-react-ts/static/media/card-shop.7c93e539.png",
+    "static/media/gabion.b09a9de0.png": "/template-react-ts/static/media/gabion.b09a9de0.png",
+    "static/media/grille-rigide.51214b04.png": "/template-react-ts/static/media/grille-rigide.51214b04.png",
+    "static/media/hover-boutique-menu.eea420e5.png": "/template-react-ts/static/media/hover-boutique-menu.eea420e5.png",
+    "static/media/installation1.99e04b20.png": "/template-react-ts/static/media/installation1.99e04b20.png",
+    "static/media/installation2.41db6d32.png": "/template-react-ts/static/media/installation2.41db6d32.png",
+    "static/media/installation3.44f06446.png": "/template-react-ts/static/media/installation3.44f06446.png",
+    "static/media/installation4.166265b4.png": "/template-react-ts/static/media/installation4.166265b4.png",
+    "static/media/installation5.6e4406dd.png": "/template-react-ts/static/media/installation5.6e4406dd.png",
+    "static/media/lame-bois.cf8e3d1c.png": "/template-react-ts/static/media/lame-bois.cf8e3d1c.png",
+    "static/media/lame-composite.c9e5890d.png": "/template-react-ts/static/media/lame-composite.c9e5890d.png",
+    "static/media/panneau-bois.20959d68.png": "/template-react-ts/static/media/panneau-bois.20959d68.png",
+    "static/media/shop-left.e61b0784.png": "/template-react-ts/static/media/shop-left.e61b0784.png",
+    "static/media/shop-right.89069cf6.png": "/template-react-ts/static/media/shop-right.89069cf6.png",
+    "static/media/slide-boutique.3325da76.png": "/template-react-ts/static/media/slide-boutique.3325da76.png",
+    "static/media/slide.001d3aef.png": "/template-react-ts/static/media/slide.001d3aef.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c84eb0d2.js",
+    "static/js/2.64c2e74c.chunk.js",
+    "static/css/main.9f8a9f1b.chunk.css",
+    "static/js/main.afd101c9.chunk.js"
+  ]
+}
