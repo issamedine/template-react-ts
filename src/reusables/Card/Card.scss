@@ -1,0 +1,103 @@
+.custom-text-card-install {
+  text-align: left;
+  background-color: #653d36;
+  display: flex;
+  flex-direction: column;
+
+  &:not(:hover) {
+    .title-card .wrapper-text-install-card {
+      margin-top: 25%;
+        transition: 0.3s all;
+    }
+    .footer-card-install {
+      opacity: 0;
+      margin-bottom: 0;
+      transition: 0.3s all;
+    }
+  }
+
+
+  &:hover {
+    background-color: #638c2f;
+    .title-card .wrapper-text-install-card {
+        margin-top: 10%;
+        transition: 0.3s all;
+
+        .title-text-install-card {
+          color: #653d36;
+        }
+    }
+    .footer-card-install {
+      opacity: 1;
+      margin-bottom: 15%;
+      transition: 0.3s all;
+    }
+  }
+
+  .title-card {
+    height: 100%;
+    // display: flex;
+
+    .wrapper-text-install-card {
+      // height: 100%;
+      margin-top: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 25px;
+
+      .title-text-install-card {
+        font-size: 30px;
+        font-weight: 700;
+        color: #638c2f;
+      }
+
+      .desc-text-install-card {
+        color: #fff;
+      }
+
+
+    }
+  }
+  .footer-card-install {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    p {
+      margin: 0;
+    }
+}
+}
+
+.item-card {
+  width: 210px;
+  height: 150px;
+  position: relative;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+
+  &:hover  {
+    background-color: #008cba;
+    z-index: 2;
+  }
+
+  .title-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: 0.5s ease;
+    
+  }
+}

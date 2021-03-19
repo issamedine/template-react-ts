@@ -1,0 +1,48 @@
+.custom-slide-not-accueil {
+  height: 200px;
+  overflow: hidden;
+}
+.slide {
+  top: 61px;
+  z-index: -1;
+  margin-top: -44px;
+  position: sticky;
+  .h-accueil {
+    width: 100vw;
+    height: auto;
+  }
+  .h-shop {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .desc-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    p {
+      margin: 0;
+    }
+    .custom-desc-slide {
+      position: absolute;
+      top: 120px;
+      left: 100px;
+      text-align: left;
+      line-height: 22px;
+
+      .title-desc {
+        font-size: 35px;
+        font-weight: 500;
+      }
+
+      .chemin-desc {
+        span:nth-child(2) {
+          font-size: 11px;
+          margin: 0 3px;
+          color: #3a3a3a;
+        }
+      }
+    }
+  }
+}

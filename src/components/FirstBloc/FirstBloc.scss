@@ -1,0 +1,41 @@
+.wrapper-card {
+    display: flex;
+    padding: 0;
+    margin-top: 25px;
+    position: sticky;
+    top: 407px;
+    z-index: -1;
+
+    @media (max-width: 1412px) {
+        top: 380px;
+      }
+    @media (max-width: 1284px) {
+        top: 360px;
+      }
+    @media (max-width: 1150px) {
+        top: 340px;
+      }
+
+    .item-card {
+      margin: 0 11px;
+    }
+    .item-card:first-child {
+      margin-right: 10px !important;
+      margin-left: 0 !important;
+    }
+    .item-card:last-child {
+      margin-left: 10px !important;
+      margin-right: 0 !important;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      .item-card {
+        width: 100%;
+        margin: 1% 0 !important;
+      }
+      .item-card:last-child {
+        margin-left: 0 !important;
+      }
+    }
+  }

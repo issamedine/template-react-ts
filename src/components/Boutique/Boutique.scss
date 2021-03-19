@@ -1,0 +1,139 @@
+.wrapper-boutique {
+  margin-top: 50px;
+
+  .left-bloc {
+    @media (max-width: 992px) {
+      margin-top: 20px;
+    }
+    .wrapper-left-bloc {
+      .card-left-bloc {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          padding: 5% 0;
+          border-bottom: 1px solid #ddd;
+        }
+        li:first-child {
+          padding: 7% 0;
+          font-weight: 600;
+          font-size: 21px;
+        }
+        li:last-child {
+          border-bottom: none;
+          background-color: #638c2f;
+          color: #fff;
+        }
+        @media (max-width: 992px) {
+          li:first-child {
+            padding: 15px 0;
+          }
+          li {
+            padding: 10px 0;
+          }
+        }
+      }
+
+      .card-configure-espace {
+        padding: 13px;
+        height: 454px;
+        background-color: #4d302b;
+        margin-top: 20px;
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+        @media (max-width: 768px) {
+          .desc-config {
+            width: 80%;
+            margin: 0 auto;
+          }
+        }
+
+        @media (max-width: 992px) {
+          height: auto;
+
+          .icon-config {
+            float: none !important;
+
+            svg {
+              margin-bottom: 15px;
+            }
+          }
+          .title-config,
+          .desc-config {
+            text-align: center !important;
+          }
+          .icon-footer .e {
+            display: none;
+          }
+        }
+
+        .icon-config {
+          float: left;
+          margin-bottom: 25px;
+          svg {
+            fill: #fff;
+          }
+        }
+        .title-config {
+          clear: both;
+          font-weight: 700;
+          font-size: 17px;
+          text-align: left;
+        }
+        .desc-config {
+          text-align: left;
+          font-size: 15px;
+        }
+
+        .icon-footer {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 45%;
+          .e {
+            svg {
+              width: 119px;
+              height: 184px;
+              transform: rotate(-14deg);
+              position: absolute;
+              left: -24px;
+              bottom: 3px;
+              fill: #638c2f;
+            }
+          }
+          .arrow {
+            position: absolute;
+            bottom: 16px;
+            right: 30px;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .right-bloc {
+    @media (max-width: 992px) {
+      margin-top: 30px;
+    }
+    .wrapper-right-bloc {
+      .menu {
+        text-align: left;
+        color: rgb(131, 130, 130);
+
+        span:nth-child(1) {
+          font-weight: 700;
+          color: #000;
+        }
+        span:nth-child(2) {
+          margin: 0 2%;
+        }
+      }
+    }
+  }
+}
